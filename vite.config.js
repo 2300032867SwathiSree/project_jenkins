@@ -1,11 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-   base: '/oag/',  // 👈 important for Tomcat
+  base: mode === 'production' ? '/oag/' : '/', // 👈 local = "/", build = "/oag/"
   build: {
     outDir: 'dist',
-    },
-})
+  },
+}))
