@@ -145,7 +145,7 @@ export class ProjectHomePage extends Component {
           <div className="logo-container">
             <img className="logo" src={`${import.meta.env.BASE_URL}images/logo.jpg`} alt="Art Gallery Logo" />
 
-            <span className="brand">House of Serene Kunst</span>
+            <span className="brand">House of Serene </span>
           </div>
           <nav className="nav-links">
             <a href="/homepage">Home</a>
