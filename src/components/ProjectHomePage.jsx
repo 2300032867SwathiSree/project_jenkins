@@ -167,9 +167,10 @@ export class ProjectHomePage extends Component {
 
         <div className="hero">
           <Slider {...settings} className="carousel-container">
-            <div><img className="slide-image" src="/images/a1.webp" alt="Art 1" /></div>
-            <div><img className="slide-image" src="/images/a2.jpg" alt="Art 2" /></div>
-            <div><img className="slide-image" src="/images/a3.jpg" alt="Art 3" /></div>
+            
+            <div><img className="slide-image" src={`${import.meta.env.BASE_URL}images/a1.webp`} alt="Art 1" /></div>
+            <div><img className="slide-image" src={`${import.meta.env.BASE_URL}images/a2.jpg`} alt="Art 2" /></div>
+            <div><img className="slide-image" src={`${import.meta.env.BASE_URL}images/a3.jpg`} alt="Art 3" /></div>
           </Slider>
           <div className="hero-text">
             <h1>Welcome to the Art Gallery</h1>
@@ -220,12 +221,33 @@ export class ProjectHomePage extends Component {
           <div className="footer-content">
             <p>&copy; 2025 Art Gallery | All Rights Reserved</p>
             <p>Follow us on:
-              <a href="#" className="fa fa-facebook">Facebook 
-              <img className='socialmediaIcon' src='/images/facebook.jpg' alt="Facebook" /></a> |
-              <a href="#" className="fa fa-twitter">Instagram 
-              <img className='socialmediaIcon' src='/images/instagram.png' alt="Instagram" /></a> |
-              <a href="#" className="fa fa-instagram">Twitter 
-              <img className='socialmediaIcon' src='/images/twitter.jpg' alt="Twitter" /></a>
+             <a href="#" className="fa fa-facebook">
+  Facebook
+  <img
+    className="socialmediaIcon"
+    src={`${import.meta.env.BASE_URL}images/facebook.jpg`}
+    alt="Facebook"
+  />
+</a>
+|
+<a href="#" className="fa fa-twitter">
+  Instagram
+  <img
+    className="socialmediaIcon"
+    src={`${import.meta.env.BASE_URL}images/instagram.png`}
+    alt="Instagram"
+  />
+</a>
+|
+<a href="#" className="fa fa-instagram">
+  Twitter
+  <img
+    className="socialmediaIcon"
+    src={`${import.meta.env.BASE_URL}images/twitter.jpg`}
+    alt="Twitter"
+  />
+</a>
+
             </p>
           </div>
         </footer>
