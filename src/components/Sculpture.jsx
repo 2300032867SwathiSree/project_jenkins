@@ -41,17 +41,14 @@ export class Sculpture extends Component {
                 <button className="sculpture-dropdown-button">Auctions</button>
                 <div className="sculpture-dropdown-content">
                   <div className="sculpture-column">
-                    <strong>Style</strong>
-                    <a href="#">Graffiti</a>
+                    
+                    <a href="/bp">Buying</a>
                   </div>
                   <div className="sculpture-column">
-                    <strong>Subject</strong>
-                    <a href="#">Nature</a>
+                    
+                    <a href="/sel">Selling</a>
                   </div>
-                  <div className="sculpture-column">
-                    <strong>Medium</strong>
-                    <a href="#">Pencil</a>
-                  </div>
+                  
                 </div>
               </div>
 

@@ -42,17 +42,14 @@ export class Cartoons extends Component {
                 <button className="cartoon-dropdown-button">Auctions</button>
                 <div className="cartoon-dropdown-content">
                   <div className="cartoon-column">
-                    <strong>Style</strong>
-                    <a href="#">Graffiti</a>
+                    
+                    <a href="/bp">Buying</a>
                   </div>
                   <div className="cartoon-column">
-                    <strong>Subject</strong>
-                    <a href="#">Nature</a>
+                    
+                    <a href="/sel">Selling</a>
                   </div>
-                  <div className="cartoon-column">
-                    <strong>Medium</strong>
-                    <a href="#">Pencil</a>
-                  </div>
+                  
                 </div>
               </div>
 

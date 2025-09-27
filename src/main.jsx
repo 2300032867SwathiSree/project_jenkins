@@ -26,6 +26,7 @@ import ContrastDiversity from './components/ContrastDiversity.jsx'
 
 
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
@@ -44,6 +45,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/ap' element={<AbstractPieces />}></Route>
       <Route path='/cn' element={<ClassNTrad />}></Route>
       <Route path='/cd' element={<ContrastDiversity />}></Route>
+      
       
       
       

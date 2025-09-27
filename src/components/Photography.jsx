@@ -44,17 +44,14 @@ export class Photography extends Component {
                 <button className="photography-dropdown-button">Auctions</button>
                 <div className="photography-dropdown-content">
                   <div className="photography-column">
-                    <strong>Style</strong>
-                    <a href="#">Graffiti</a>
+                    
+                    <a href="/bp">Buying</a>
                   </div>
                   <div className="photography-column">
-                    <strong>Subject</strong>
-                    <a href="#">Nature</a>
+                    
+                    <a href="/sel">Selling</a>
                   </div>
-                  <div className="photography-column">
-                    <strong>Medium</strong>
-                    <a href="#">Pencil</a>
-                  </div>
+                  
                 </div>
               </div>
 
