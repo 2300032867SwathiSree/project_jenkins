@@ -26,9 +26,10 @@
 }
 
 .logo {
-    width: 50px;
-    height: auto;
+    height: 40px;   /* fits inside your 50px navbar */
+    width: auto;    /* keeps aspect ratio */
     margin-right: 10px;
+    object-fit: contain; /* keeps the full image visible */
 }
 
 .brand {
