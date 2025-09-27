@@ -19,19 +19,12 @@ import AbstractPieces from './components/AbstractPieces.jsx'
 import ClassNTrad from './components/ClassNTrad.jsx'
 import ContrastDiversity from './components/ContrastDiversity.jsx'
 
-
-
-
-
-
-
-
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/oag">
     <Routes>
-      <Route path='/'element={<ProjectHomePage/>}></Route>
+      <Route index element={<ProjectHomePage />} />
+      <Route path="/" element={<ProjectHomePage/>}></Route>
       <Route path='/homepage' element={<HomePage />}></Route>
       <Route path='/contact' element={<Contact />}></Route>
       <Route path='/cartoons' element={<Cartoons />}></Route>
@@ -45,12 +38,6 @@ createRoot(document.getElementById('root')).render(
       <Route path='/ap' element={<AbstractPieces />}></Route>
       <Route path='/cn' element={<ClassNTrad />}></Route>
       <Route path='/cd' element={<ContrastDiversity />}></Route>
-      
-      
-      
-      
-      
-      
     </Routes>
     </BrowserRouter>
   </StrictMode>,
